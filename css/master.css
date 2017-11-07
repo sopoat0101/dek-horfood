@@ -1,0 +1,18 @@
+.nevbar{
+  background-color: orange;
+  height: 100%;
+  text-align: right;
+  text-decoration: none;
+  padding: 10px;
+  opacity: 0.7;
+}
+#center{
+  color: white;
+  margin-right: 15%;
+}
+.container{
+  text-align: center;
+}
+.row{
+  margin-top: 50px;
+}
