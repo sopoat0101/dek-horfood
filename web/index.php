@@ -14,15 +14,22 @@
         <a class="text-white" href="#">Sign up</a>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <button type="button" class="btn btn-warning">ค้นหาจากวัตถุดิบ</button>
-        </div>
-        <div class="col">
-          <button type="button" class="btn btn-warning">ค้านหาจากชื่อเมนู</button>
+    <br>
+    <br>
+    <br>
+    <div class=id='herophoto'>
+      <img width="60%" src="../img/logo.jpg" alt="">
+      <br>
+    </div>
+    <div class="bg">
+      <div class="container">
+        <br>
+        <div class="input">
+          <input type="text" name="search" value="" placeholder='ค้นหาอาหาร'>
+          <button type="button" name="button">search</button>
         </div>
       </div>
+      <br>
     </div>
   </body>
 </html>

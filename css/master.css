@@ -1,18 +1,45 @@
 .nevbar{
+  position: fixed;
   background-color: orange;
-  height: 100%;
+  width: 100%;
   text-align: right;
   text-decoration: none;
   padding: 10px;
-  opacity: 0.7;
+  box-shadow: 0px 0px 10px 0px;
 }
 #center{
   color: white;
   margin-right: 15%;
 }
+.bg{
+  background-color: orange;
+}
 .container{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px -1px;
+  text-align: center;
+  height: 700px;
+}
+.input{
+  padding: 55px 60px;
+}
+button{
+  border: none;
+  padding: 7px 25px;
+  background-color: orange;
+}
+input{
+  width: 30%;
+  padding: 5px 5px;
+}
+input.placeholder {
   text-align: center;
 }
-.row{
-  margin-top: 50px;
+#herophoto{
+  padding: 30px
+}
+#herophoto, img{
+  display: block;
+  margin: 0 auto;
 }
