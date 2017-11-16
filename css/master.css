@@ -1,45 +1,67 @@
-.nevbar{
-  position: fixed;
-  background-color: orange;
-  width: 100%;
-  text-align: right;
-  text-decoration: none;
-  padding: 10px;
-  box-shadow: 0px 0px 10px 0px;
+body{
+	margin: 0 auto;
+	background-color: rgba(242, 242, 242, 0.9);
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-#center{
-  color: white;
-  margin-right: 15%;
+a{
+	text-decoration: none !important;
 }
-.bg{
-  background-color: orange;
+.nev{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 153, 51, 1);
+	box-shadow: 0px 0px 5px 2px rgb(217, 217, 217);
 }
-.container{
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px -1px;
-  text-align: center;
-  height: 700px;
+.logo{
+	display: inline-block;
+	margin-left: 15%;
+	padding: 1%;
+}
+.logo a{
+	color: white;
+}
+.add{
+	display: inline-block;
+	float: right;
+	margin-right: 15%;
+	text-align: center;
+	padding: 1%;
+	background-color: white;
+}
+.but{
+	margin: 0 auto;
+	width: 100%;
+	color: rgba(255, 153, 51, 1);
+	padding: 0px 30px 0px 30px;
+}
+.hero{
+	width: 40%;
+	margin: 0 auto;
+	background-color: rgba(255, 153, 51, 1);
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 60px;
+	margin-bottom: 3%;
+}
+.photo img{
+	width: 100%;
 }
 .input{
-  padding: 55px 60px;
+	text-align: center;
 }
-button{
-  border: none;
-  padding: 7px 25px;
-  background-color: orange;
+.container{
+	height: 100vh;
+	background-color: rgba(204, 204, 204, 0.7);
+	margin-bottom: 5%;
+	box-shadow: 0px 0px 10px 0px rgb(217, 217, 217);
 }
-input{
-  width: 30%;
-  padding: 5px 5px;
-}
-input.placeholder {
-  text-align: center;
-}
-#herophoto{
-  padding: 30px
-}
-#herophoto, img{
-  display: block;
-  margin: 0 auto;
+.footer{
+	width: 80%;
+	height: 200px;
+	margin:  0 auto;
+	background-color: white;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	box-shadow: 0px 0px 10px 2px rgb(217, 217, 217);
 }
