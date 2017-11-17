@@ -19,6 +19,7 @@
 #button{
 	background-color: white;
 	border: none;
+	border-radius: 30px;
 	padding: 3px 30px 3px 30px;
 	color: rgba(255, 153, 51, 1);
 }
