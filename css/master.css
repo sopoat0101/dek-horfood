@@ -41,7 +41,7 @@ a{
 	padding: 0px 30px 0px 30px;
 }
 .hero{
-	width: 40%;
+	width: 30%;
 	margin: 0 auto;
 	background-color: rgba(255, 153, 51, 1);
 	border-top-left-radius: 50%;
@@ -55,17 +55,16 @@ a{
 	text-align: center;
 }
 .container{
-	height: 100vh;
 	background-color: rgba(204, 204, 204, 0.7);
 	margin-bottom: 5%;
 	box-shadow: 0px 0px 10px 0px rgb(217, 217, 217);
+	border-radius: 50px;
 }
 .footer{
 	width: 80%;
-	height: 200px;
 	margin:  0 auto;
 	background-color: white;
+	bottom: 0;
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
-	box-shadow: 0px 0px 10px 2px rgb(217, 217, 217);
 }

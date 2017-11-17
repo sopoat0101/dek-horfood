@@ -1,0 +1,10 @@
+.container{
+	margin-top: 5%;
+}
+.login{
+	text-align: center;
+}
+.login table{
+	margin: 0 auto;
+	border: solid 3px;
+}
