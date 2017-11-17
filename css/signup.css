@@ -1,0 +1,29 @@
+.hero{
+	margin-top: 3%;
+}
+.name{
+	width: 100%;
+	padding: 5%;
+}
+.inname{
+	padding: 5%;
+	margin: 0 auto;
+	width: 50%;
+	background-color: rgba(255, 153, 51, 1);
+	border-radius: 30px;
+	color: white;
+}
+.inname table td{
+	padding: 1%;
+}
+#button{
+	background-color: white;
+	border: none;
+	padding: 3px 30px 3px 30px;
+	color: rgba(255, 153, 51, 1);
+}
+#button:hover{
+	color: white;
+	background-color: rgb(255, 214, 153);
+	transition: 0.3s;
+}
