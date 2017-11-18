@@ -1,0 +1,43 @@
+.container{
+	margin-top: 5%;
+}
+.userinfo{
+	padding: 5% 0px;
+}
+.row{
+	margin-top: 5%;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255, 153, 51, 1);
+	border-radius: 30px;
+}
+#photo{
+	width: 100%;
+}
+table{
+	width: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: rgb(255, 204, 153);
+	border-radius: 30px;
+	color: white;
+	padding: 3%;
+}
+table td{
+	padding: 10px;
+}
+#edit{
+	border: none;
+	background-color: rgb(255, 204, 153);
+	float: right;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	border-radius: 10px;
+	padding: 2%;
+	color: white;
+}
+#edit:hover{
+	color: rgba(255, 153, 51, 1);
+	background-color: white;
+	transition: 0.3s;
+}
