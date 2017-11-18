@@ -73,6 +73,7 @@ input[type=search]:focus {
 }
 .input{
 	text-align: center;
+	margin-bottom: 3%;
 }
 .container{
 	background-color: rgba(204, 204, 204, 0.7);
@@ -90,6 +91,12 @@ input[type=search]:focus {
 }
 /**pc**/
 /**Mobile**/
+.card{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	border-radius: 30px;
+}
 .card-block{
 	padding:0px 0px 20px 20px;
 }

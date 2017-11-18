@@ -22,9 +22,16 @@
 	border-radius: 30px;
 	padding: 3px 30px 3px 30px;
 	color: rgba(255, 153, 51, 1);
+	float: right;
 }
 #button:hover{
 	color: white;
 	background-color: rgb(255, 214, 153);
 	transition: 0.3s;
+}
+table{
+	margin: 0 auto;
+}
+table input{
+	margin: 2%;
 }
