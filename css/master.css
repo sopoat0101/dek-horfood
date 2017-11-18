@@ -72,3 +72,34 @@ a{
 .menufood{
 	margin-top: 30px;
 }
+/* .colbg_test1{
+width: 500px;
+height: 500px;
+background-color: green;
+}
+.colbg_test2{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	}
+.colbg_test3{
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+} */
+.card-block{
+	padding:0px 0px 20px 20px;
+}
+@media only screen and (max-width: 768px) {
+	.col-12{
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.col-12{
+		padding-right: 5%;
+		padding-left: 5%;
+		margin-bottom: 1%;
+	}
+}
