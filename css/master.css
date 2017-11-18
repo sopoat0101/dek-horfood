@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /**pc**/
+=======
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+*{
+	font-family: 'Kanit', sans-serif;	
+}
+>>>>>>> 7973c94215eff6b2c1a769c3a467d37183c7baa6
 body{
 	margin: 0 auto;
 	background-color: rgba(242, 242, 242, 0.9);
@@ -8,6 +15,23 @@ body{
 }
 a{
 	text-decoration: none !important;
+}
+input[type=search] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 40%;
 }
 .nev{
 	position: fixed;
@@ -66,10 +90,51 @@ a{
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
 }
+<<<<<<< HEAD
 /**pc**/
 /**Mobile**/
 @media screen and (max-width: 480px) {
 	.add {
 		padding: 10%;
+=======
+.menufood{
+	margin-top: 30px;
+}
+/* .colbg_test1{
+width: 500px;
+height: 500px;
+background-color: green;
+}
+.colbg_test2{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	}
+.colbg_test3{
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+} */
+.card-block{
+	padding:0px 0px 20px 20px;
+}
+.load{
+	margin-top: 10px;
+}
+.more{
+	margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+	.col-12{
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.col-12{
+		padding-right: 5%;
+		padding-left: 5%;
+		margin-bottom: 1%;
+>>>>>>> 7973c94215eff6b2c1a769c3a467d37183c7baa6
 	}
 }
