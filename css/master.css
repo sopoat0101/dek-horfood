@@ -107,6 +107,12 @@ background-color: green;
 .card-block{
 	padding:0px 0px 20px 20px;
 }
+.load{
+	width: 100%;
+}
+.more{
+	margin: 10px 45% 2px 40%;
+}
 @media only screen and (max-width: 768px) {
 	.col-12{
 		padding-right: 15%;
