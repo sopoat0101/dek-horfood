@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 /**pc**/
-=======
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 *{
 	font-family: 'Kanit', sans-serif;	
 }
->>>>>>> 7973c94215eff6b2c1a769c3a467d37183c7baa6
 body{
 	margin: 0 auto;
 	background-color: rgba(242, 242, 242, 0.9);
@@ -90,13 +87,6 @@ input[type=search]:focus {
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
 }
-<<<<<<< HEAD
-/**pc**/
-/**Mobile**/
-@media screen and (max-width: 480px) {
-	.add {
-		padding: 10%;
-=======
 .menufood{
 	margin-top: 30px;
 }
@@ -135,6 +125,5 @@ background-color: green;
 		padding-right: 5%;
 		padding-left: 5%;
 		margin-bottom: 1%;
->>>>>>> 7973c94215eff6b2c1a769c3a467d37183c7baa6
 	}
 }
