@@ -13,14 +13,14 @@
 <body>
   <div class="nev">
     <div class="home">
-      <a href="index.html">
+      <a href="index.php">
         <div class="logo">
           Dek-Horfood
         </div>
       </a>
     </div>
     <div class="menu">
-      <a href="login.html">
+      <a href="login.php">
         <div class="add">
           เพิ่มเมนู
         </div>
@@ -31,7 +31,7 @@
   <br>
   <br>
   <br>
-  <a href="index.html">
+  <a href="index.php">
     <div class="hero">
       <div class="photo">
         <img src="../img/logo.png">
@@ -56,7 +56,7 @@
             <div class="card-block">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.html" class="btn btn-primary">Go somewhere</a>
+              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
             <div class="card-block">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.html" class="btn btn-primary">Go somewhere</a>
+              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             <div class="card-block">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.html" class="btn btn-primary">Go somewhere</a>
+              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
