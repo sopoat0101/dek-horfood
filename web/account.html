@@ -1,7 +1,15 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['username'])){
+		echo "<script>alert('!! Please Login !!');
+				window.location='login.php';</script>";
+		exit();
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dek-Horfood-<?php?></title>
+	<title>Dek-Horfood-<?php $_SESSION['username'] ?></title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/master.css">
@@ -20,28 +28,27 @@
 						<table>
 							<tr>
 								<td>Username:</td>
-								<td>Wassapol</td>
+								<td><?php $_SESSION['username'] ?></td>
 							</tr>
 							<tr>
 								<td>Name:</td>
-								<td>Wassapol</td>
+								<td><?php $_SESSION['username'] ?></td>
 							</tr>
 							<tr>
 								<td>Surname:</td>
-								<td>Osas</td>
+								<td><?php $_SESSION['username'] ?></td>
 							</tr>
 							<tr>
 								<td>E-mail:</td>
-								<td>pp1234@pp.com</td>
+								<td><?php $_SESSION['username'] ?></td>
 							</tr>
 						</table>
-						<input id="edit" type="submit" name="" value="EDIT">
+						<a href="edit.php"><input id="edit" type="button" name="" value="EDIT"></a>
+						<a href="addmenu.php">
 					</div>
 				</div>
 			</div>
 		</form>
-		<div class="row">
-		</div>
 	</div>
 </body>
 </html>
