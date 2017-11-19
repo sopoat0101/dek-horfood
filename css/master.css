@@ -1,18 +1,121 @@
-.nevbar{
-  background-color: orange;
-  height: 100%;
-  text-align: right;
-  text-decoration: none;
-  padding: 10px;
-  opacity: 0.7;
+/**pc**/
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+*{
+	font-family: 'Kanit', sans-serif;	
 }
-#center{
-  color: white;
-  margin-right: 15%;
+body{
+	margin: 0 auto;
+	background-color: rgba(242, 242, 242, 0.9);
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none !important;
+}
+input[type=search] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 40%;
+}
+.nev{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 153, 51, 1);
+	box-shadow: 0px 0px 5px 2px rgb(217, 217, 217);
+	z-index: 100;
+}
+.home{
+	padding-left: 15%;
+	display: inline-block;
+}
+.logo{
+	color: white;
+	padding: 15px;
+}
+.menu{
+	float: right;
+	padding-right: 15%;
+	display: inline-block;
+}
+.add{
+	background-color: white;
+	padding: 15px 35px 15px 35px;
+	color: rgba(255, 153, 51, 1);
+}
+.add:hover{
+	background-color: rgb(255, 214, 153);
+	color: white;
+	transition: 0.3s;
+}
+.hero{
+	width: 30%;
+	margin: 0 auto;
+	background-color: rgba(255, 153, 51, 1);
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 60px;
+	margin-bottom: 2%;
+}
+.photo img{
+	width: 100%;
+}
+.input{
+	text-align: center;
+	margin-bottom: 3%;
 }
 .container{
-  text-align: center;
+	background-color: rgba(204, 204, 204, 0.7);
+	margin-bottom: 5%;
+	box-shadow: 0px 0px 10px 0px rgb(217, 217, 217);
+	border-radius: 50px;
 }
-.row{
-  margin-top: 50px;
+.footer{
+	width: 80%;
+	margin:  0 auto;
+	background-color: white;
+	bottom: 0;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+/**pc**/
+/**Mobile**/
+.card{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	border-radius: 30px;
+}
+.card-block{
+	padding:0px 0px 20px 20px;
+}
+.load{
+	margin-top: 10px;
+}
+.more{
+	margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+	.col-12{
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.col-12{
+		padding-right: 5%;
+		padding-left: 5%;
+		margin-bottom: 1%;
+	}
 }
