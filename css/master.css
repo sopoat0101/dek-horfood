@@ -106,6 +106,29 @@ input[type=search]:focus {
 .more{
 	margin: 0 auto;
 }
+.btnfood{
+	margin-top: 20px;
+}
+.btnfood{
+	background-color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 30px;
+	padding: 3px 30px 3px 30px;
+	color: rgba(255, 153, 51, 1);
+}
+.btnfood:hover{
+	color: white;
+	background-color: rgb(248, 194, 118);
+	transition: 0.3s;
+}
+.card-title{
+	margin-top: 8px;
+}
+.foodcard{
+	border: 3px solid rgba(255, 153, 51, 1);
+	border-radius: 30px;
+}
 /*@media only screen and (max-width: 768px) {
 	.col-12{
 		padding-right: 15%;
