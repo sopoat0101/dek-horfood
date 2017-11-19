@@ -14,14 +14,14 @@
 <body>
   <div class="nev">
     <div class="home">
-      <a href="index.html">
+      <a href="index.php">
         <div class="logo">
           Dek-Horfood
         </div>
       </a>
     </div>
     <div class="menu">
-      <a href="login.html">
+      <a href="login.php">
         <div class="add">
           เพิ่มเมนู
         </div>
@@ -34,40 +34,39 @@
   <br>
   <div class="container">
     <br>
-    <br>
     <div class="row">
-        <div class="col">
-            <img src="../img/egg.jpg" class="rounded float-left" alt="...">
+      <div class="col-sm-6">
+          <div class="show">
+            <div id="showphoto" style="background-image: url('../img/egg.jpg');">
+          </div>
         </div>
-        <div class="col">
-            <h3>ข้าวไข่เจียว</h3>
-            <h4>วัตถุดิบ</h4>
-            <p>ไข่ไก่ 1 ฟอง</p>
-            <p>น้ำปลา</p>
-            <p>เนื้อหมู</p>
+      </div>
+      <div class="col-sm-6">
+        <div class="menuname">
+          Yourmenu
         </div>
+        <div class="inger">
+          <div class="ininger">
+            1.ไข่ไก่<br>
+            2.น้ำมัน<br>
+            3.น้ำมันหอย<br>
+            4.หมู<br>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-        <div class="col">
-            <h3>ขั้นตอนการทำ</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel explicabo sint dolorum vero sed at repellat pariatur fugiat magnam nesciunt, magni, reprehenderit quisquam laudantium maiores hic, sapiente unde suscipit tenetur!</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel explicabo sint dolorum vero sed at repellat pariatur fugiat magnam nesciunt, magni, reprehenderit quisquam laudantium maiores hic, sapiente unde suscipit tenetur!</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel explicabo sint dolorum vero sed at repellat pariatur fugiat magnam nesciunt, magni, reprehenderit quisquam laudantium maiores hic, sapiente unde suscipit tenetur!</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <p>by someone</p>
-        </div>
+       <div class="col-sm-12">
+         <div class="sol">
+          <div class="insol">
+            1.2.3.
+          </div>
+         </div>
+       </div>
     </div>
     <br>
-    <br>
-  </div>
   <footer>
     <div class="footer"></div>
   </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </html>

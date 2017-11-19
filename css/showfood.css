@@ -1,3 +1,45 @@
-.food_title{
-    margin-right: 10px;
+#showphoto{
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 40% 50%;
+	border: solid 5px rgba(255, 153, 51, 1);
+	border-radius: 30px;
+}
+.show{
+	margin: 0 auto;
+	width: 80%;
+}
+.menuname{
+	margin: 0 auto;
+	background-color: rgba(255, 153, 51, 1);
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	width: 90%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding: 5%;
+}
+.inger{
+	margin: 0 auto;
+	width: 90%;
+}
+.ininger{
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgb(255, 214, 153);
+	padding: 10% 15%;
+	border-radius: 30px;
+}
+.sol{
+	width: 90%;
+	margin: 0 auto;
+	padding: 3%;
+}
+.insol{
+	padding: 5%;
+	width: 100%;
+	background-color: rgb(255, 214, 153);
+	border-radius: 30px;
 }
