@@ -28,8 +28,8 @@ include('connect.php');
 	//Check inside the Database
 	$sqluserc    = "SELECT * FROM inform where username='$username'";
 	$sqlemailc   = "SELECT * FROM inform where email='$email'";
-	$queryuserc  = mysqli_query($conn, $sqluserc) or die('error=$sqluserc');
-	$queryemailc = mysqli_query($conn, $sqlemailc) or die('error=$sqlemailc');
+	$queryuserc  = mysqli_query($conn, $sqluserc) or die("$username");
+	$queryemailc = mysqli_query($conn, $sqlemailc) or die("$email");
 	$numuserc    = mysqli_num_rows($queryuserc);
 	$numemailc   = mysqli_num_rows($queryemailc);
 	//If have = 1 no = 0

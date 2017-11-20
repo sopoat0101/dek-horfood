@@ -1,12 +1,12 @@
 <?php
 session_start();
 include('connect.php');
-	$username = $_POST['username'];
-	$password = base64_encode($_POST['password']);
+	$username = mysqli_real_escape_string($conn, $_POST['username']);
+	$password = mysqli_real_escape_string($conn, base64_encode($_POST['password']));
 
 	//CONNECT DATABASE
 	$sql      = "SELECT * FROM inform where username='$username' and password='$password'";
-	$query    = mysqli_query($conn, $sql) or die("error=$sql");
+	$query    = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 	$num      = mysqli_num_rows($query);
 
 	if ($num==0){

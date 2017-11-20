@@ -20,6 +20,7 @@
         <div class="inname">
           <table>
             <tr>
+              <!-- user root pass root -->
               <td><input type="text" name="username" method="POST" placeholder="Username" required></td>
             </tr>
             <tr>
@@ -32,7 +33,7 @@
               <td><input type="text" name="email" method="POST" placeholder="E-mail" required></td>
             </tr>
             <tr>
-              <td><input type="text" name="name" method="POST" placeholder="Name" required></td>
+              <td><input type="text" name="name" method="POST" placeholder="Your Name (Kimi no Na wa)" required></td>
             </tr>
             <tr>
               <td><input type="text" name="surname" method="POST" placeholder="Surname" required></td>

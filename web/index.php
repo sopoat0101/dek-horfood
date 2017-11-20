@@ -50,35 +50,29 @@
     <div class="menufood">
       <div class="row align-items-start">
         <div class="col-12 col-lg-4 colbg_test1">
-          <div class="card">
-            <!-- <img  class="card-img-top" src="../img/egg.jpg"> -->
+          <div class="card text-center foodcard">
+            <h3 class="card-title">ไข่เจียว</h3>
             <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
+            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 colbg_test2">
-          <div class="card">
-            <!-- <img  class="card-img-top" src="../img/egg.jpg"> -->
+          <div class="card text-center foodcard">
+            <h3 class="card-title">ไข่เจียว</h3>
             <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
+            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4 colbg_test3">
-          <div class="card">
-            <!-- <img  class="card-img-top" src="../img/egg.jpg"> -->
+          <div class="card text-center foodcard">
+            <h3 class="card-title">ไข่เจียว</h3>
             <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="showfood.php" class="btn btn-primary">Go somewhere</a>
+            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
             </div>
           </div>
         </div>
