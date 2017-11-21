@@ -1,10 +1,10 @@
-#showphoto{
-	
+#showphoto{	
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 40% 50%;
 	border: solid 5px rgba(255, 153, 51, 1);
 	border-radius: 30px;
+	background-position: center;
 }
 .show{
 	margin: 0 auto;
@@ -17,8 +17,8 @@
 	text-align: center;
 	border-radius: 30px;
 	width: 90%;
-	margin-bottom: 5%;
-	margin-top: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
 	padding: 5%;
 }
 .inger{
@@ -31,6 +31,7 @@
 	background-color: rgb(255, 214, 153);
 	padding: 10% 15%;
 	border-radius: 30px;
+	border: solid 5px rgba(255, 153, 51, 1);
 }
 .sol{
 	width: 90%;
@@ -42,4 +43,5 @@
 	width: 100%;
 	background-color: rgb(255, 214, 153);
 	border-radius: 30px;
+	border: solid 5px rgba(255, 153, 51, 1);;
 }

@@ -4,6 +4,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/master.css">
 	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
   <link rel="stylesheet" type="text/css" href="../css/signup.css">
   <link rel="shortcut icon" type="" href="../img/icon.png">
 	<title>Dek-Horfood-Create Account</title>
@@ -15,44 +16,42 @@
     </a>
   </div>
   <div class="container">
+    <div id="incontainer">
+      <div style="text-align: center; padding: 1%;"><h5 style="padding: 1% 2%; border-radius: 20px; background-color: rgba(255, 153, 51, 1); display: inline-block;">Register</h5></div>
+    <hr>
     <form action="../php/signup_back.php" method="POST" autocomplete="off">
-      <div class="name">
-        <div class="inname">
-          <table>
-            <tr>
-              <!-- user root pass root -->
-              <td><input type="text" name="username" method="POST" placeholder="Username" required></td>
-            </tr>
-            <tr>
-              <td><input type="password" name="password" method="POST" placeholder="Password" required></td>
-            </tr>
-            <tr>
-              <td><input type="password" name="confirm" method="POST" placeholder="Confirm Password" required></td>
-            </tr>
-            <tr>
-              <td><input type="text" name="email" method="POST" placeholder="E-mail" required></td>
-            </tr>
-            <tr>
-              <td><input type="text" name="name" method="POST" placeholder="Your Name (Kimi no Na wa)" required></td>
-            </tr>
-            <tr>
-              <td><input type="text" name="surname" method="POST" placeholder="Surname" required></td>
-            </tr>
-            <tr>
-              <td>
-                <input type="radio" name="gender" value="male" checked>Male
+    <div id="login">
+      <div>
+        <input class="user" type="text" name="username" placeholder="Username" required>
+      </div>
+      <div>
+        <input class="user" type="text" name="email" placeholder="E-mail" required>
+      </div>
+      <div>
+        <input class="user" type="password" name="password" placeholder="Password" required>
+      </div>
+      <div>
+        <input class="user" type="text" name="confirm" placeholder="Confirmpassword" required>
+      </div>
+      <div>
+        <input class="user" type="text" name="name" placeholder="Name" required>
+      </div>
+      <div>
+        <input class="user" type="text" name="surname" placeholder="Surname" required>
+      </div>
+      <div>
+        <br>
+        <input type="radio" name="gender" value="male" checked>Male
                 <input type="radio" name="gender" value="female">Female
                 <input type="radio" name="gender" value="other">Other
-              </td>
-            </tr>
-          </table>
-          <br>
-          <br>
-          <input id="button" type="submit" name="SUBMIT">
-        </div>
       </div>
+    </div>
+    <hr>
+    </div>
+    <div style="text-align: center;">
+      <input class="but" type="submit">
+    </div>
     </form>
-  </div>
     <br>
     <br>
   <footer>

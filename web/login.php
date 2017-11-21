@@ -4,49 +4,34 @@
 	<meta charset="utf-8">
 	<title>Dek-Horfood-login</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../css/login.css">
 	<link rel="shortcut icon" type="" href="../img/icon.png">
-	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
 	<br>
 	<br>
 	<br>
 	<div class="container">
-		<br>
-		<br>
-		<a href="index.php">
-			<div class="hero">
-      			<div class="photo"><img src="../img/logo.png"></div>
-    		</div>
-    	</a>
-    	<form method="POST" action="../php/login_back.php">
-		<div class="info">
-			<div class="backinfo">
-				<table>
-					<tr>
-						<td class="username">Username</td>
-						<td><input type="text" name="username"></td>
-					</tr>
-					<tr>
-						<td class="username">Password</td>
-						<td><input type="password" name="password"></td>
-					</tr>
-				</table>
-				<div class="login">
-					<input type="submit" name="" value="Login">
-					<a href="signup.php"><input type="button" value="Register"></input></a>
-				</div>
+		<div id="incontainer">
+			<div>
+				<a href="index.php">
+					<img class="logo" style="width: 30%;" src="../img/logo.png">
+				</a>
 			</div>
-		</div>
-		</form>
+			<form method="POST" id="loginfrom" action="../php/login_back.php">
+				<div style="padding: 2%;">
+					<input class="user" type="text" name="username" placeholder="Username" required>
+				</div>
+				<div style="padding: 1%;">
+					<input class="user" type="password" name="password" placeholder="Password" required>
+				</div>
+			<div>
+			<input class="but" style="margin: 1%;" type="submit" value="Login">
+			</form>
+			<a href="signup.php"><input class="but" style="margin:  1%" type="button" value="Register"></a>
+			</div>
 		<br>
 		<br>
-	</div>
-	<footer>
-		<div class="footer">
-			
 		</div>
-	</footer>
 </body>
 </html>

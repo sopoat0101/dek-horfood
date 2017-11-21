@@ -7,9 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/master.css">
   <link rel="shortcut icon" type="" href="../img/icon.png">
-  <title>Dek-Horfood</title>
+  <title>Dek-Horfood-Home</title>
 </head>
-
 <body>
   <div class="nev">
     <div class="home">
@@ -43,37 +42,31 @@
     <br>
     <div class="input">
       <form action="#">
-        <input type="search" name="search" placeholder="ค้นหาเมนูอาหาร..." size="30" maxlength="50">
+        <input id="find" type="search" name="search" placeholder="ค้นหาเมนูอาหาร..." size="30" maxlength="50">
         <button type="submit" class="btn btn-warning">Go</button>
       </form>
     </div>
-    <div class="menufood">
-      <div class="row align-items-start">
-        <div class="col-12 col-lg-4 colbg_test1">
-          <div class="card text-center foodcard">
-            <h3 class="card-title">ไข่เจียว</h3>
-            <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
-            <div class="card-block">
-            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
-            </div>
+    <div id="menu">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="menucard">
+            <div class="menuphoto"><img class="inmenuphoto" style="background-image: url(../img/egg.jpg);"></div>
+            <div class="namemenu">ไข่เจียว</div>
+            <div class="viewbutton"><a href="showfood.php"><input class="view" type="submit" value="view"></a></div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 colbg_test2">
-          <div class="card text-center foodcard">
-            <h3 class="card-title">ไข่เจียว</h3>
-            <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
-            <div class="card-block">
-            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
-            </div>
+        <div class="col-sm-4">
+          <div class="menucard">
+            <div class="menuphoto"><img class="inmenuphoto" style="background-image: url(../img/egg.jpg);"></div>
+            <div class="namemenu">ไข่เจียว</div>
+            <div class="viewbutton"><a href=""><input class="view" type="submit" value="view"></a></div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 colbg_test3">
-          <div class="card text-center foodcard">
-            <h3 class="card-title">ไข่เจียว</h3>
-            <img class="card-img-top" src="../img/egg.jpg" alt="Card image cap">
-            <div class="card-block">
-            <a href="showfood.php" class="btn btn-primary btnfood">ขั้นตอนการทำ</a>
-            </div>
+        <div class="col-sm-4">
+          <div class="menucard">
+            <div class="menuphoto"><img class="inmenuphoto" style="background-image: url(../img/egg.jpg);"></div>
+            <div class="namemenu">ไข่เจียว</div>
+            <div class="viewbutton"><a href=""><input class="view" type="submit" value="view"></a></div>
           </div>
         </div>
       </div>

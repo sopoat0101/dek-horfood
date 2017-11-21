@@ -10,7 +10,6 @@
   <link rel="shortcut icon" type="" href="../img/icon.png">
   <title>Dek-Horfood</title>
 </head>
-
 <body>
   <div class="nev">
     <div class="home">
@@ -43,7 +42,7 @@
       </div>
       <div class="col-sm-6">
         <div class="menuname">
-          Yourmenu
+          <h4>Yourmenu</h4>
         </div>
         <div class="inger">
           <div class="ininger">

@@ -14,7 +14,7 @@
 
 	if(empty($name)||empty($surname)||empty($email)||empty($password))
 	{
-		echo "<script>alert('Please refill the form (Some of them are empty)');history.back();</script>";
+		echo "<script>alert('Please refill the form $_SESSION['token'] (Some of them are empty)');history.back();</script>";
 		exit();
 	}
 
