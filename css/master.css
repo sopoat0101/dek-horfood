@@ -1,101 +1,89 @@
-/**pc**/
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 *{
-	font-family: 'Kanit', sans-serif;	
+	font-family: 'Kanit', sans-serif;
 }
 body{
-	margin: 0 auto;
-	background-color: rgba(242, 242, 242, 0.9);
 	background-image: url(../img/logo.png);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: rgb(242, 242, 242);
 }
-a{
-	text-decoration: none !important;
-}
-input[type=search] {
-    width: 250px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=search]:focus {
-    width: 40%;
-}
+/*Nevbar*/
 .nev{
-	position: fixed;
 	width: 100%;
-	background-color: rgba(255, 153, 51, 1);
+	background-color: rgb(255, 153, 0);
+	position: fixed;
 	z-index: 100;
 }
-.home{
-	padding-left: 15%;
-	display: inline-block;
-}
-.logo{
+.nev a{
 	color: white;
-	padding: 15px;
 }
-.menu{
-	float: right;
-	padding-right: 15%;
-	display: inline-block;
-}
-.add{
-	background-color: white;
-	padding: 15px 35px 15px 35px;
-	color: rgba(255, 153, 51, 1);
-}
-.add:hover{
-	background-color: rgb(255, 214, 153);
-	color: white;
-	transition: 0.3s;
-}
-.hero{
-	width: 30%;
+.innev{
 	margin: 0 auto;
-	background-color: rgba(255, 153, 51, 1);
-	border-top-left-radius: 50%;
-	border-bottom-right-radius: 60px;
-	margin-bottom: 2%;
-}
-.photo img{
 	width: 100%;
 }
-.input{
-	text-align: center;
-	margin-bottom: 3%;
+#info{
+	display: inline-block;
+	padding: 1%;
 }
-.container{
-	background-color: rgba(204, 204, 204, 0.7);
-	margin-bottom: 5%;
-	box-shadow: 0px 0px 10px 0px rgb(217, 217, 217);
-	border-radius: 50px;
-}
-.footer{
-	width: 80%;
-	margin:  0 auto;
+#info:hover{
+	transition: 0.2s;
 	background-color: white;
-	bottom: 0;
-	border-top-left-radius: 60px;
-	border-top-right-radius: 60px;
+	color: rgb(255, 184, 77);
 }
-/**pc**/
-/**Mobile**/
+#addmenu{
+	display: inline-block;
+	padding: 1%;
+}
+#addmenu:hover{
+	transition: 0.2s;
+	background-color: white;
+	color: rgb(255, 184, 77);
+}
+#logo{
+	display: inline-block;
+	width: 5%;
+	margin: 0 auto;
+	background-color: rgb(255, 153, 0);
+	border-radius: 20px;
+}
+#inlogo{
+	width: 100%;
+}
+/*Container*/
+.container{
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	background-color: rgba(230, 230, 230, 0.5);
+}
+/*Find*/
+#find{
+	text-align: center;
+	margin: 5%;
+}
+#infind{
+	width: 30%;
+	display: inline-block;
+	border: none;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	padding: 5px 10px;
+}
+#search{
+	border: none;
+	background-color: rgb(255, 153, 0);
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	color: white;
+}
+/*Menu*/
+#menu{
+	margin-bottom: 5%;
+}
+/*card*/
 .menucard{
 	background-color: white;
-	width: 100%;
+	width: 90%;
 	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
 	border-radius: 30px;
 	border: solid 5px rgb(255, 153, 0);
+	margin: 0 auto;
 }
 .menuphoto{
 	width: 100%;
@@ -106,15 +94,16 @@ input[type=search]:focus {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	border-radius: 20px;
 }
 .namemenu{
-	width: 90%;
+	width: 100%;
 	margin:  0 auto;
 	text-align: center;
 	color: white;
 	background-color: rgb(255, 184, 77);
+	border-radius: 10px;
 }
 .viewbutton{
 	text-align: center;
@@ -124,57 +113,49 @@ input[type=search]:focus {
 	margin: 5%;
 	border: none;
 	background-color: rgb(255, 184, 77);
-	width: 50%;
+	width: 40%;
+	border-radius: 20px;
+	border: solid;
 }
-.card-block{
-	padding:0px 0px 20px 20px;
-}
-.load{
-	margin-top: 10px;
+.view:hover{
+	transition: 0.2s;
+	background-color: white;
+	color: rgb(255, 184, 77);
+	border: solid;
 }
 .more{
-	margin: 0 auto;
-}
-.btnfood{
-	margin-top: 20px;
-}
-.btnfood{
-	background-color: white;
-	font-size: 1.2em;
 	border: none;
-	border-radius: 30px;
-	padding: 3px 30px 3px 30px;
-	color: rgba(255, 153, 51, 1);
-}
-.btnfood:hover{
+	background-color: rgb(255, 184, 77);
+	padding: 5px 20px;
+	margin: 2%;
+	border-radius: 20px;
 	color: white;
-	background-color: rgb(248, 194, 118);
-	transition: 0.3s;
 }
-.card-title{
-	margin-top: 8px;
+.more:hover{
+	color: rgb(255, 184, 77);
+	background-color: white;
+	transition: 0.2s;
 }
-.foodcard{
-	border: 3px solid rgba(255, 153, 51, 1);
-	border-radius: 30px;
+/*Addmenu(addmenu.php)*/
+.addmenu{
+	background-color: rgb(255, 153, 0);
+	border-radius: 10px;
+	padding-bottom: 5%;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
 }
-#find{
+.addname{
 	border: none;
-	box-shadow: 0px 3px 5px 0px rgb(140, 140, 140);
+	width: 20%;
+	padding: 5px 10px;
 }
-.btn{
-	box-shadow: 0px 3px 5px 0px rgb(140, 140, 140);	
+#go{
+	border: none;
+	color: rgb(255, 153, 0);
+	background-color: white;
+	padding: 1%;
+	border-radius: 10px;
+	border: solid white;
 }
-/*@media only screen and (max-width: 768px) {
-	.col-12{
-		padding-right: 15%;
-		padding-left: 15%;
-	}
-}
-@media only screen and (max-width: 425px) {
-	.col-12{
-		padding-right: 5%;
-		padding-left: 5%;
-		margin-bottom: 1%;
-	}
+#go:hover{
+	border: solid rgb(255, 184, 77);
 }
