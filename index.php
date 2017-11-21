@@ -21,7 +21,7 @@
 	<div class="container">
 		<br>
 		<div id="find">
-			<input id="infind" type="text" name="find" placeholder="ค้นหาเมนูที่คุณต้องการ">
+			<input id="infind" type="text" name="find" placeholder="ค้นหาเมนูที่คุณต้องการ...">
 			<input id="search" type="submit" value="search">
 		</div>
 		<div id="menu">
