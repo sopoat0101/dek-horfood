@@ -12,7 +12,7 @@
 		<div class="innev">
 			<a href="index.php"><div id="logo"><img id="inlogo" src="img/logo.png"></div></a>
 			<a href="login.php"><div id="addmenu">Addmenu</div></a>
-			<a href=""><div id="info">Infomation</div></a>
+			<a href="infomation.php" target="_blank"><div id="info">Infomation</div></a>
 		</div>
 	</div>
 	<br>

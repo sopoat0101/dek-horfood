@@ -11,7 +11,7 @@
 	<div class="nev">
 		<div class="innev">
 			<div id="logo"><img id="inlogo" src="img/logo.png"></div>
-			<a href=""><div id="info">Infomation</div></a>
+			<a href="infomation.php" target="_blank"><div id="info">Infomation</div></a>
 			<a href=""><div id="addmenu">Account</div></a>
 			<a href=""><div id="addmenu">Logout</div></a>
 		</div>
