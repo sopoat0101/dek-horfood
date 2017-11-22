@@ -25,7 +25,7 @@
                             <label for="email" class="col-md-4 control-label">ingradient</label>
 
                             <div class="col-md-12">
-                                <textarea type="text" class="former col-12" name="ingradient" required></textarea>
+                                <textarea type="text" class="former col-12" name="ingradient" placeholder="1.ไข่ไก่, 2.น้ำมันพืช, 3.ซีอิ้วขาว, ..." required></textarea>
                             </div>
                         </div>
 

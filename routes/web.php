@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/', function () {
+    return view('welcome');
+})->name('home');
 Route::get('/about', function () {
     return view('about');
 });
@@ -25,7 +28,6 @@ Route::post('upload', 'UploadController@upload');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/food/new', 'HomeController@addmenu')->name('add menu');
 
 Route::get('/food/{id}', function ($fid) {

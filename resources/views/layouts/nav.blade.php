@@ -20,7 +20,6 @@
 
                         <ul class="dropdown-menu dropdown-menu-right p-1">
                             <li>
-                                <a class="btn btn-dekhor col-12" href="/profile">profile</a>
                                 <a class="btn btn-dekhor col-12" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
