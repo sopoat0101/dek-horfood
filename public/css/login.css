@@ -1,0 +1,31 @@
+/*Logo*/
+#loginlogo{
+	width: 40%;
+	margin: 0 auto;
+}
+#inloginlogo{
+	width: 100%;
+	background-color: rgb(255, 153, 0);
+	border-radius: 10px;
+}
+/*Login*/
+#login{
+	text-align: center;
+	padding-bottom: 5%;
+}
+#username{
+	width: 30%;
+	border: none;
+	margin: 0.5%;
+	padding: 5px 10px;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+}
+.former{
+	border: none;
+	margin: 1%;
+	padding: 5px 10px;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+}
+#search{
+	margin-top: 2%;
+}

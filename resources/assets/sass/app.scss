@@ -1,0 +1,257 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+// Variables
+@import "variables";
+
+.bg-dekhor, .btn-dekhor{
+    background-color: $color0;
+    border-color: $color1;
+	color: $white;
+	transition: .3s;
+	padding: 0 10%;
+}
+.btn-dekhor:hover{
+    background-color: $color1;
+    border-color: $color0;
+    color: $white;
+}
+
+*{
+	font-family: 'Kanit', sans-serif;
+}
+body{
+	background-image: url('/img/logo.png');
+	background-size: cover;
+	background-color: rgb(242, 242, 242);
+}
+/*Nevbar*/
+.nev{
+	width: 100%;
+	background-color: rgb(255, 153, 0);
+	position: fixed;
+	z-index: 100;
+}
+.nev a{
+	color: white;
+}
+.innev{
+	margin: 0 auto;
+	width: 100%;
+}
+/*.input_edit{
+	width: 50%;
+	border: none;
+	margin: 0.5%;
+	padding: 5px 10px;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+}*/
+#info{
+	display: inline-block;
+	padding: 1%;
+}
+#info:hover{
+	transition: 0.2s;
+	background-color: white;
+	color: rgb(255, 184, 77);
+}
+#addmenu{
+	display: inline-block;
+	padding: 1%;
+}
+#addmenu:hover{
+	transition: 0.2s;
+	background-color: white;
+	color: rgb(255, 184, 77);
+}
+#logo{
+	display: inline-block;
+	width: 5%;
+	margin: 0 auto;
+	background-color: rgb(255, 153, 0);
+	border-radius: 20px;
+}
+#inlogo{
+	width: 100%;
+}
+/*Container*/
+.container{
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	background-color: rgba(230, 230, 230, 0.5);
+}
+/*Find*/
+#find{
+	text-align: center;
+	margin: 5%;
+}
+#infind{
+	width: 30%;
+	display: inline-block;
+	border: none;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	padding: 5px 10px;
+}
+#search{
+	border: none;
+	background-color: $color0;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	color: white;
+	transition: .3s;
+	padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: .3s;
+}
+#search:hover{
+	color: rgb(255, 153, 0);
+	background-color: $white;
+}
+/*Menu*/
+#menu{
+	margin-bottom: 5%;
+}
+/*card*/
+.menucard{
+	background-color: white;
+	width: 90%;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	border-radius: 30px;
+	border: solid 5px rgb(255, 153, 0);
+	margin: 0 auto;
+}
+.menuphoto{
+	width: 100%;
+	margin: 0 auto;
+	padding: 3%;
+}
+.inmenuphoto{
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 250px;
+	border-radius: 20px;
+}
+.namemenu{
+	width: 100%;
+	margin:  0 auto;
+	text-align: center;
+	color: white;
+	background-color: rgb(255, 184, 77);
+	border-radius: 10px;
+}
+.viewbutton{
+	text-align: center;
+}
+.view{
+	color: white;
+	margin: 5%;
+	border: none;
+	background-color: rgb(255, 184, 77);
+	width: 40%;
+	border-radius: 20px;
+	border: solid;
+}
+.view:hover{
+	transition: 0.2s;
+	background-color: white;
+	color: rgb(255, 184, 77);
+	border: solid;
+}
+.more{
+	border: none;
+	background-color: rgb(255, 184, 77);
+	padding: 5px 20px;
+	margin: 2%;
+	border-radius: 20px;
+	color: white;
+}
+.more:hover{
+	color: rgb(255, 184, 77);
+	background-color: white;
+	transition: 0.2s;
+}
+/*Addmenu(addmenu.php)*/
+.addmenu{
+	background-color: rgb(255, 153, 0);
+	border-radius: 10px;
+	padding-bottom: 5%;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+}
+.addname{
+	border: none;
+	width: 20%;
+	padding: 5px 10px;
+}
+#go{
+	border: none;
+	color: rgb(255, 153, 0);
+	background-color: white;
+	padding: 1%;
+	border-radius: 10px;
+	border: solid white;
+}
+#go:hover{
+	border: solid rgb(255, 184, 77);
+}
+.getinput{
+	margin: 6px;
+	margin-right: 3%;
+}
+.edit_user{
+	/*color: #fff;*/
+	/*background-color: blue;*/
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+.btn_save{
+	border: none;
+	background-color: rgb(255, 184, 77);
+	padding: 5px 20px;
+	margin: 2%;
+	border-radius: 20px;
+	color: white;
+}
+.btn_save:hover{
+	color: rgb(255, 184, 77);
+	background-color: white;
+	transition: 0.2s;
+}
+.inputinfo{
+	border: none;
+	margin: 0.5%;
+	padding: 5px 10px;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+}
+.title{
+	background-color: $color0;
+	color:$white;
+	box-shadow: 0px 2px 5px 0px rgb(191, 191, 191);
+	border-radius: 10px;
+	padding: 9px;
+}
+.banner{
+	background-image: url('/img/logo.png');
+	background-color: $color0;
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nav-link{
+	transition: .15s;
+}
+.nav-link:hover{
+	color: $white !important;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
