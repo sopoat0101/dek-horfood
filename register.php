@@ -9,50 +9,61 @@
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-	<div class="nev">
-		<div class="innev">
-			<a href="index.php"><div id="logo"><img id="inlogo" src="img/logo.png"></div></a>
-			<a href="login.php"><div id="addmenu">Addmenu</div></a>
-			<a href="infomation.php" target="_blank"><div id="info">Infomation</div></a>
-		</div>
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
+	@include('layouts.nav')
 	<div class="container">
 		<br>
 		<div style="text-align: center;"><h4>Register</h4></div>
 		<hr>
-		<form>
-		<div id="login">
-			<div>
-				<input id="username" type="text" name="username" placeholder="Username" required>
-			</div>
-			<div>
-				<input id="username" type="text" name="email" placeholder="E-mail" required>
-			</div>
-			<div>
-				<input id="username" type="password" name="password" placeholder="Password" required>
-			</div>
-			<div>
-				<input id="username" type="password" name="confirm" placeholder="ConfirmPassword" required>
-			</div>
-			<div>
-				<input id="username" type="text" name="name" placeholder="Name" required>
-			</div>
-			<div>
-				<input id="username" type="text" name="surname" placeholder="Surname" required>
-			</div>
-			<div>
-				<input type="radio" name="gender" value="male" checked>Male
-                <input type="radio" name="gender" value="female">Female
-                <input type="radio" name="gender" value="other">Other
-			</div>
-		<hr>
-		<br>
-		<input id="search" type="submit" style="padding: 5px 20px;">
-		</form>
+		<form class="form-horizontal" method="POST" action="{{ route('register') }}">
+        	{{ csrf_field() }}
+        	<div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+        	    <label for="name" class="col-md-4 control-label">Name</label>
+        	    <div class="col-md-6">
+        	        <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
+        	        @if ($errors->has('name'))
+        	            <span class="help-block">
+        	                <strong>{{ $errors->first('name') }}</strong>
+        	                </span>
+        	            @endif
+        	        </div>
+        	    </div>
+                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                    <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                    <div class="col-md-6">
+                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+                        @if ($errors->has('email'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('email') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                </div>
+                <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                    <label for="password" class="col-md-4 control-label">Password</label>
+                    <div class="col-md-6">
+                        <input id="password" type="password" class="form-control" name="password" required>
+                        @if ($errors->has('password'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                        @endif
+                        </div>
+                    </div>
+					<div class="form-group">
+						<label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+						<div class="col-md-6">
+							<input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-6 col-md-offset-4">
+							<button type="submit" class="btn btn-primary">
+								Register
+							</button>
+						</div>
+					</div>
+            </form>
 		</div>
 	</div>
 </body>
