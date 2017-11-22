@@ -24,32 +24,34 @@
         <form action="#">
             <div class="edit_user">
                 <div class="row justify-content-center">
-                    <div class="row col-8 justify-content-center getinput">
+                    <div class="row col-8 getinput justify-content-center">
                         <h5 class="getinput">Name :</h5>
                         <input class="getinput edit_user" id="username" type="text" name="username" placeholder="Supagit">
                     </div>
-                    <div class="row col-8 justify-content-center getinput">
-                        <h5 class="getinput">Name :</h5>
-                        <input class="getinput edit_user" id="username" type="text" name="username" placeholder="Supagit">
-                    </div>
-                    <div class="row col-8 justify-content-center getinput">
+                    <div class="row col-8 getinput justify-content-center">
                         <h5 class="getinput">Surname :</h5>
                         <input class="getinput edit_user" id="username" type="text" name="username" placeholder="Supagit">
                     </div>
-                    <div class="row col-8 justify-content-center getinput">
+                    <div class="row col-8 getinput justify-content-center">
                         <h5 class="getinput">E-mail :</h5>
                         <input class="getinput edit_user" id="username" type="text" name="username" placeholder="Supagit@hub.com">
                     </div>
-                    <div class="row col-8 justify-content-center getinput">
+                    <div class="row col-8 getinput justify-content-center">
                         <h5 class="getinput">Password :</h5>
                         <input class="getinput edit_user" id="username" type="Password" name="username" placeholder="Supagit">
                     </div>
-                    <div class="row col-8 justify-content-center getinput">
+                    <div class="row col-8 getinput justify-content-center">
                         <h5 class="getinput">New Password :</h5>
                         <input class="getinput edit_user" id="username" type="Password" name="username" placeholder="Supagit">
                     </div>
+                    <div class="row col-8 getinput justify-content-center">
+                        <h5 class="getinput">Confirm new Password :</h5>
+                        <input class="getinput edit_user" id="username" type="Password" name="username" placeholder="Supagit">
+                    </div>
+                    <div class="row col-8 justify-content-center">
+                        <input class="btn_save" type="submit" value="save">
+                    </div>
                 </div>
-                <input class="btn_save" type="submit" value="save">
             </div>
         </form>
     </div>
