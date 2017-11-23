@@ -15,7 +15,7 @@
 	<div class="row justify-content-center">
 		<div class="col-sm-4">
 			<div style="text-align: center; padding: 2%;">
-				<img class="pro" style="background-image: url(img/nine.jpg);">
+				<img class="pro" style="background-image: url(/img/nine.jpg);">
 				<h4>Sopoat Iamcharoen</h4>
 			</div>
 		</div>
@@ -62,14 +62,14 @@
 		</div>
 		<div class="col-sm-4">
 			<div style="text-align: center; padding: 2%;">
-				<img class="pro" style="background-image: url(img/boom.jpg);">
+				<img class="pro" style="background-image: url(/img/boom.jpg);">
 				<h4>Pachara Sriyodwieng</h4>
 			</div>
 		</div>
 		<!--2-->
 		<div class="col-sm-4">
 			<div style="text-align: center; padding: 2%;">
-				<img class="pro" style="background-image: url(img/pok.jpg);">
+				<img class="pro" style="background-image: url(/img/pok.jpg);">
 				<h4>Supakit Theanthunyakit</h4>
 			</div>
 		</div>
@@ -115,13 +115,13 @@
 		</div>
 		<div class="col-sm-4">
 			<div style="text-align: center; padding: 2%;">
-				<img class="pro" style="background-image: url(img/pp.jpg);">
+				<img class="pro" style="background-image: url(/img/pp.jpg);">
 				<h4>Wassapol Pungjap</h4>
 			</div>
 		</div>
 		<div class="col-sm-4">
 			<div style="text-align: center; padding: 2%;">
-				<img class="pro" style="background-image: url(img/pop.jpg);">
+				<img class="pro" style="background-image: url(/img/pop.jpg);">
 				<h4>Thitichote Chaimuang</h4>
 			</div>
 		</div>
